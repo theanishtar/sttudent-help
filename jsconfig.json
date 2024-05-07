@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "jsx": "preserve",
+      "paths": {
+        "@/*": ["./src/*"],
+        "@/assets/*": ["./assets/*"],
+        "@/components/*": ["./components/*"],
+        "@/constants/*": ["./constants/*"],
+        "@/hooks/*": ["./hooks/*"],
+        "@/mixins/*": ["./mixins/*"]
+      }
+    },
+    "exclude": ["node_modules", "build"]
+  }

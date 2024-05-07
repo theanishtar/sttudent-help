@@ -1,0 +1,47 @@
+.wrapper {
+	background: #e8eef6;
+	padding: 0 20px 0 20px;
+
+	.formLogin {
+		display: flex;
+		justify-content: center !important;
+		align-items: center !important;
+		min-height: 100vh;
+		.rowLogin {
+			width: 900px;
+			height: 550px;
+			border-radius: 10px;
+			box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+			.sideImg {
+				padding-inline: 0px !important;
+
+				.imgLogin {
+					height: 550px;
+					width: 459px;
+					// background-position: center;
+					// background-size:cover;
+					background-repeat: no-repeat;
+					position: relative;
+					border-radius: 10px 0 0 10px;
+					object-fit: cover;
+					object-position: 70% 100%;
+				}
+			}
+
+			.rightSlideLogin {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				background-color: white;
+				border-radius: 0 10px 10px 0;
+				text-align: center;
+				padding: 20px;
+
+				#btnLogin {
+					margin-top: 50px;
+				}
+			}
+		}
+	}
+}
